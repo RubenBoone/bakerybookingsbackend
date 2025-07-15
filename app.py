@@ -14,8 +14,7 @@ def get_db():
 
 @app.route("/api/test")
 def test_api():
-    return "API is working!"
-
+    return "API link is working!"
 if __name__ == '__main__':
     print("Backend is up")
     app.run(host="0.0.0.0", port=7001)
