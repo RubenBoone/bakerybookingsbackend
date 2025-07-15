@@ -12,7 +12,7 @@ def get_db():
     conn.row_factory = sqlite3.Row
     return conn
 
-@app.route("/api/test")
+@app.route("/test")
 def test_api():
     return "API link is working!"
 if __name__ == '__main__':
